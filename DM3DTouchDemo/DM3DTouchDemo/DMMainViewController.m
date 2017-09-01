@@ -122,6 +122,7 @@ static NSString *reusedId = @"3dTouch";
             if (self.traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable) {
                 
                 [self registerForPreviewingWithDelegate:(id)self sourceView:cell];
+                
             }
         }
     }
